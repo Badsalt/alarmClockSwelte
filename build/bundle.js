@@ -1000,7 +1000,7 @@ var app = (function () {
     			button = element("button");
     			button.textContent = "Set Alarm";
     			attr_dev(button, "class", "setAlarm svelte-1w0qx03");
-    			add_location(button, file, 283, 7, 5982);
+    			add_location(button, file, 283, 7, 6008);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, button, anchor);
@@ -1040,7 +1040,7 @@ var app = (function () {
     			button = element("button");
     			button.textContent = "Disable";
     			attr_dev(button, "class", "disableAlarm svelte-1w0qx03");
-    			add_location(button, file, 281, 7, 5832);
+    			add_location(button, file, 281, 7, 5858);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, button, anchor);
@@ -1079,7 +1079,7 @@ var app = (function () {
     			p = element("p");
     			p.textContent = "Set alarm to a valid time";
     			attr_dev(p, "class", "svelte-1w0qx03");
-    			add_location(p, file, 289, 7, 6246);
+    			add_location(p, file, 289, 7, 6272);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, p, anchor);
@@ -1126,9 +1126,9 @@ var app = (function () {
     			b = element("b");
     			t1 = text(t1_value);
     			attr_dev(b, "class", "svelte-1w0qx03");
-    			add_location(b, file, 287, 32, 6155);
+    			add_location(b, file, 287, 32, 6181);
     			attr_dev(p, "class", "svelte-1w0qx03");
-    			add_location(p, file, 287, 7, 6130);
+    			add_location(p, file, 287, 7, 6156);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, p, anchor);
@@ -1175,7 +1175,7 @@ var app = (function () {
     			attr_dev(line, "y1", "42");
     			attr_dev(line, "y2", "45");
     			attr_dev(line, "transform", "rotate(" + 6 * (/*minute*/ ctx[13] + /*offset*/ ctx[16]) + ")");
-    			add_location(line, file, 307, 8, 6836);
+    			add_location(line, file, 307, 8, 6862);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, line, anchor);
@@ -1221,7 +1221,7 @@ var app = (function () {
     			attr_dev(line, "y1", "35");
     			attr_dev(line, "y2", "45");
     			attr_dev(line, "transform", "rotate(" + 30 * /*minute*/ ctx[13] + ")");
-    			add_location(line, file, 300, 7, 6671);
+    			add_location(line, file, 300, 7, 6697);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, line, anchor);
@@ -1262,7 +1262,7 @@ var app = (function () {
     			button = element("button");
     			button.textContent = "Set Alarm";
     			attr_dev(button, "class", "setAlarm svelte-1w0qx03");
-    			add_location(button, file, 337, 6, 7605);
+    			add_location(button, file, 337, 6, 7632);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, button, anchor);
@@ -1302,7 +1302,7 @@ var app = (function () {
     			button = element("button");
     			button.textContent = "Disable";
     			attr_dev(button, "class", "disableAlarm svelte-1w0qx03");
-    			add_location(button, file, 335, 6, 7457);
+    			add_location(button, file, 335, 6, 7484);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, button, anchor);
@@ -1341,7 +1341,7 @@ var app = (function () {
     			p = element("p");
     			p.textContent = "Set alarm to a valid time";
     			attr_dev(p, "class", "svelte-1w0qx03");
-    			add_location(p, file, 343, 6, 7862);
+    			add_location(p, file, 343, 6, 7889);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, p, anchor);
@@ -1388,9 +1388,9 @@ var app = (function () {
     			b = element("b");
     			t1 = text(t1_value);
     			attr_dev(b, "class", "svelte-1w0qx03");
-    			add_location(b, file, 341, 30, 7773);
+    			add_location(b, file, 341, 30, 7800);
     			attr_dev(p, "class", "svelte-1w0qx03");
-    			add_location(p, file, 341, 5, 7748);
+    			add_location(p, file, 341, 5, 7775);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, p, anchor);
@@ -1437,7 +1437,7 @@ var app = (function () {
     			button = element("button");
     			button.textContent = "Set Alarm";
     			attr_dev(button, "class", "setAlarm svelte-1w0qx03");
-    			add_location(button, file, 366, 4, 9263);
+    			add_location(button, file, 366, 4, 9290);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, button, anchor);
@@ -1477,7 +1477,7 @@ var app = (function () {
     			button = element("button");
     			button.textContent = "Disable";
     			attr_dev(button, "class", "disableAlarm svelte-1w0qx03");
-    			add_location(button, file, 364, 4, 9119);
+    			add_location(button, file, 364, 4, 9146);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, button, anchor);
@@ -1516,7 +1516,7 @@ var app = (function () {
     			p = element("p");
     			p.textContent = "Set alarm to a valid time";
     			attr_dev(p, "class", "svelte-1w0qx03");
-    			add_location(p, file, 372, 4, 9512);
+    			add_location(p, file, 372, 4, 9539);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, p, anchor);
@@ -1563,9 +1563,9 @@ var app = (function () {
     			b = element("b");
     			t1 = text(t1_value);
     			attr_dev(b, "class", "svelte-1w0qx03");
-    			add_location(b, file, 370, 29, 9427);
+    			add_location(b, file, 370, 29, 9454);
     			attr_dev(p, "class", "svelte-1w0qx03");
-    			add_location(p, file, 370, 4, 9402);
+    			add_location(p, file, 370, 4, 9429);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, p, anchor);
@@ -1822,85 +1822,86 @@ var app = (function () {
     			add_location(div1, file, 267, 5, 5053);
     			attr_dev(input0, "type", "time");
     			attr_dev(input0, "class", "svelte-1w0qx03");
-    			add_location(input0, file, 279, 6, 5748);
+    			add_location(input0, file, 279, 6, 5774);
     			attr_dev(div2, "class", "item");
+    			set_style(div2, "margin-top", "25px");
     			add_location(div2, file, 278, 5, 5722);
     			attr_dev(div3, "class", "clock svelte-1w0qx03");
     			add_location(div3, file, 266, 2, 5027);
     			attr_dev(circle, "class", "clock-face svelte-1w0qx03");
     			attr_dev(circle, "r", "48");
-    			add_location(circle, file, 297, 6, 6531);
+    			add_location(circle, file, 297, 6, 6557);
     			attr_dev(line0, "class", "hour svelte-1w0qx03");
     			attr_dev(line0, "y1", "2");
     			attr_dev(line0, "y2", "-20");
     			attr_dev(line0, "transform", line0_transform_value = "rotate(" + 0.5 * /*$minuteClock*/ ctx[3] + ")");
-    			add_location(line0, file, 316, 6, 7032);
+    			add_location(line0, file, 316, 6, 7058);
     			attr_dev(line1, "class", "minute svelte-1w0qx03");
     			attr_dev(line1, "y1", "4");
     			attr_dev(line1, "y2", "-30");
     			attr_dev(line1, "transform", line1_transform_value = "rotate(" + 6 * /*$minuteClock*/ ctx[3] + ")");
-    			add_location(line1, file, 324, 6, 7192);
+    			add_location(line1, file, 324, 6, 7218);
     			attr_dev(svg0, "viewBox", "-50 -50 100 100");
     			set_style(svg0, "width", "70%");
     			set_style(svg0, "height", "100%");
     			attr_dev(svg0, "class", "svelte-1w0qx03");
-    			add_location(svg0, file, 296, 5, 6460);
+    			add_location(svg0, file, 296, 5, 6486);
     			attr_dev(div4, "class", "item");
     			set_style(div4, "height", "200px");
-    			add_location(div4, file, 295, 4, 6412);
+    			add_location(div4, file, 295, 4, 6438);
     			attr_dev(input1, "type", "time");
     			attr_dev(input1, "class", "svelte-1w0qx03");
-    			add_location(input1, file, 333, 5, 7378);
-    			set_style(div5, "margin-top", "5px");
-    			add_location(div5, file, 332, 4, 7341);
+    			add_location(input1, file, 333, 5, 7405);
+    			set_style(div5, "margin-top", "25px");
+    			add_location(div5, file, 332, 4, 7367);
     			attr_dev(div6, "class", "clock svelte-1w0qx03");
-    			add_location(div6, file, 293, 2, 6327);
+    			add_location(div6, file, 293, 2, 6353);
     			attr_dev(rect0, "x", "0");
     			attr_dev(rect0, "y", rect0_y_value = 198 - /*clock*/ ctx[0].time.hour * 8.53);
     			attr_dev(rect0, "width", "100%");
     			attr_dev(rect0, "height", "200");
     			set_style(rect0, "fill", "rgb(0,0,255)");
     			set_style(rect0, "stroke", "rgb(0,0,0)");
-    			add_location(rect0, file, 351, 6, 8263);
+    			add_location(rect0, file, 351, 6, 8290);
     			attr_dev(text0, "class", "tttt svelte-1w0qx03");
     			attr_dev(text0, "x", "50%");
     			attr_dev(text0, "y", "50%");
     			attr_dev(text0, "dominant-baseline", "middle");
     			attr_dev(text0, "text-anchor", "middle");
-    			add_location(text0, file, 352, 6, 8392);
+    			add_location(text0, file, 352, 6, 8419);
     			attr_dev(svg1, "width", "80");
     			attr_dev(svg1, "height", "200");
     			set_style(svg1, "width", "80%");
     			set_style(svg1, "border", "3px solid green");
     			attr_dev(svg1, "class", "svelte-1w0qx03");
-    			add_location(svg1, file, 350, 5, 8181);
+    			add_location(svg1, file, 350, 5, 8208);
     			attr_dev(div7, "class", "hourMeter");
     			set_style(div7, "width", "50%");
     			set_style(div7, "height", "100%");
-    			add_location(div7, file, 349, 4, 8118);
+    			add_location(div7, file, 349, 4, 8145);
     			attr_dev(rect1, "x", "0");
     			attr_dev(rect1, "y", rect1_y_value = 198 - /*clock*/ ctx[0].time.minute * 3.33);
     			attr_dev(rect1, "width", "100%");
     			attr_dev(rect1, "height", "200");
     			set_style(rect1, "fill", "rgb(0,0,255)");
     			set_style(rect1, "stroke", "rgb(0,0,0)");
-    			add_location(rect1, file, 357, 6, 8706);
+    			add_location(rect1, file, 357, 6, 8733);
     			attr_dev(text1, "class", "tttt svelte-1w0qx03");
     			attr_dev(text1, "x", "50%");
     			attr_dev(text1, "y", "50%");
     			attr_dev(text1, "dominant-baseline", "middle");
     			attr_dev(text1, "text-anchor", "middle");
-    			add_location(text1, file, 358, 6, 8836);
+    			add_location(text1, file, 358, 6, 8863);
     			attr_dev(svg2, "width", "80");
     			attr_dev(svg2, "height", "200");
     			set_style(svg2, "width", "80%");
     			set_style(svg2, "border", "3px solid green");
     			attr_dev(svg2, "class", "svelte-1w0qx03");
-    			add_location(svg2, file, 356, 5, 8624);
+    			add_location(svg2, file, 356, 5, 8651);
     			attr_dev(div8, "class", "minuteMeter");
     			set_style(div8, "width", "50%");
     			set_style(div8, "height", "100%");
-    			add_location(div8, file, 355, 4, 8559);
+    			add_location(div8, file, 355, 4, 8586);
     			set_style(div9, "height", "auto");
     			set_style(div9, "display", "flex");
     			set_style(div9, "justify-content", "space-around");
@@ -1908,14 +1909,14 @@ var app = (function () {
     			set_style(div9, "margin-top", "10px");
     			set_style(div9, "margin-left", "10px");
     			set_style(div9, "margin-right", "10px");
-    			add_location(div9, file, 348, 3, 7963);
+    			add_location(div9, file, 348, 3, 7990);
     			attr_dev(input2, "type", "time");
     			attr_dev(input2, "class", "svelte-1w0qx03");
-    			add_location(input2, file, 362, 4, 9044);
+    			add_location(input2, file, 362, 4, 9071);
     			set_style(div10, "margin-top", "5px");
-    			add_location(div10, file, 361, 3, 9008);
+    			add_location(div10, file, 361, 3, 9035);
     			attr_dev(div11, "class", "clock svelte-1w0qx03");
-    			add_location(div11, file, 347, 2, 7939);
+    			add_location(div11, file, 347, 2, 7966);
     			attr_dev(div12, "class", "container svelte-1w0qx03");
     			add_location(div12, file, 265, 1, 5000);
     			attr_dev(main, "class", "svelte-1w0qx03");
